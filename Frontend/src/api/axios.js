@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "http://3.107.202.217:5000/api",
 });
 
 // Attach the JWT token to every outgoing request automatically,
